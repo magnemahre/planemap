@@ -12,6 +12,13 @@
         var position       = new OpenLayers.LonLat(11.083889,60.202778);
 	var zoom = 12;
         map.addLayer(wms);
+
+        var vors = new OpenLayers.Layer.Text( "VOR",
+                    { location:"data/vor.txt",
+                      projection: map.displayProjection
+                    });
+        map.addLayer(vors);
+
         map.setCenter(position, zoom);
         //map.zoomToMaxExtent();
       </script>

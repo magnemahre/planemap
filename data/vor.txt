@@ -1,4 +1,4 @@
-lat	lon	name	icon
+lat	lon	title	icon
 63.525869	10.890075	TRM	icons/vordme.png
 61.099800	10.642800	MES	icons/vordme.png
 62.461601	10.878800	TGA	icons/vordme.png
